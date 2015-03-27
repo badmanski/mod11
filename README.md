@@ -1,8 +1,6 @@
 # Mod11
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mod11`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Modulus 11 Self-Check digits
 
 ## Installation
 
@@ -22,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+````ruby
+mod = Mod11.new '12312321321'
+=> #<Mod11:0x007ffdd316d888 @initial_value="12312321321">
+mod.check_digit
+=> 6
+mod.full_value
+=> "123123213216"
+mod = Mod11.new 12312321321
+=> #<Mod11:0x007ffdd3145428 @initial_value=12312321321>
+mod.check_digit
+=> 6
+mod.full_value
+=> "123123213216"
+````
 
 ## Development
 
