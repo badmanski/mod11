@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Mod11::VERSION
   spec.authors       = ['badmanski']
   spec.email         = ['stanislav.gorski@gmail.com']
+  spec.homepage      = 'https://github.com/badmanski/mod11'
 
   spec.summary       = 'Modulus 11 Self-Check digits'
   spec.description   = 'Modulus 11 Self-Check digits'
