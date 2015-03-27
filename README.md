@@ -21,12 +21,15 @@ Or install it yourself as:
 ## Usage
 
 ````ruby
+# Initialize with numeric string
 mod = Mod11.new '12312321321'
 => #<Mod11:0x007ffdd316d888 @initial_value="12312321321">
 mod.check_digit
 => 6
 mod.full_value
 => "123123213216"
+
+# Or with an integer
 mod = Mod11.new 12312321321
 => #<Mod11:0x007ffdd3145428 @initial_value=12312321321>
 mod.check_digit
